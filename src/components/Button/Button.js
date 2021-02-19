@@ -6,7 +6,7 @@ import './button.scss';
 const Button = ({ value, lift, name }) => {
 
   return (
-    <div className="button-container">
+    <div>
       <div className="button-wrapper">
         <div className="button-inner">
           <button

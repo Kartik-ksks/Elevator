@@ -5,6 +5,9 @@ background-color: black;
 .btn-holder{
 width: 10%;
 margin: 20% 0 7% 0;
+position: absolute;
+top: 0%;
+left: 55%;
 }
 .btn-holder::after{
 content: "s";
@@ -16,6 +19,6 @@ margin: 10%;
 }
 .ctn-holder{
 position: absolute;
-top: 10%;
-left: 65%;
+top: 39%;
+left: 58%;
 }
