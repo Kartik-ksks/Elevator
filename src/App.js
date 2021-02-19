@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div className="flex">
       <div className="main-space">
+      <h1 style={{color: "red", justifycontent: 'center'}}>Elevator-Problem</h1>
         <div className="btn-holder">
           {
             liftData.map((lift, idx) => (
@@ -20,7 +21,7 @@ const App = () => {
         <div className="ctn-holder">
           {
             liftData.map((container, idx) => (
-              <Container key={idx} />
+              <Container key={idx}  value={container.name}/>
             ))
           }
           <Lift />

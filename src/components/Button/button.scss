@@ -2,7 +2,7 @@
 .button-container,
 .button-wrapper,
 .button-inner{
-  display: inline;
+  display: inline-block;
 }
 
 .button-wrapper{
@@ -22,7 +22,7 @@
 
       &:hover{
         border: 8px solid transparent;
-        background-color: grey;
+        background-color: red;
         color: #fff;
         border-radius: 35%;
       }
